@@ -7,7 +7,7 @@ import { Carousel } from 'react-responsive-carousel';
 const Projects = () => {  
         return (
           <div className="carouselContainer">
-          <Carousel showArrows={true} width="500px" showStatus={false}>
+          <Carousel showArrows={true} width="600px" infiniteLoop showStatus={false}>
           <div className="Project">
             <div className="projectHeader">
               <div className="projectTitle">Trackstar</div>
@@ -15,29 +15,38 @@ const Projects = () => {
               <div className="refLink">
               <a href="http://3.149.247.65:8080">View in Browser</a>
               <div className="refLinkSpacer"> / </div>
-              <a href="http://github.comyankee3313/trackstar">View on Github</a>
+              <a href="http://github.com/yankee3313/trackstar">View on Github</a>
               </div>
             </div>
             <img src={trackstar} className="carouselPic" alt="Trackstar" style={{ border: '2px solid black' }}/>
             <ul>
-              <li>Single-page React app utilizing AWS cloud PaaS for hosting Postgres database</li>
-              <li>Pulls data from coingecko API and facilitates CRUD for watchlist/user management</li>
+              <li>Single-page React app utilizing AWS RDS cloud PaaS for hosting Postgres database</li>
+              <li>Pulls data from Coingecko API and facilitates CRUD for watchlist/user management</li>
+              <li>Responsive web design</li>
               <li>Redux Thunk for complex state management</li>
               <li>Node/Express/Axios backend</li>
               <li>Deployed via AWS EC2</li>
             </ul>
           </div>
           <div className="Project">
-            <img src={trackstar} className="carouselPic" alt="Trackstar"/>
-            <div className="refLink">
-            <a href="https://github.com/yankee3313">Trackstar</a>
+            <div className="projectHeader">
+              <div className="projectTitle">TOER Store</div>
+              <div>E-commerce app integrated with Stripe for payments</div>
+              <div className="refLink">
+              <a href="http://3.149.247.65:8080">View in Browser</a>
+              <div className="refLinkSpacer"> / </div>
+              <a href="http://github.com/yankee3313/toer-store">View on Github</a>
+              </div>
             </div>
-          </div>
-          <div className="Project">
-            <img src={trackstar} className="carouselPic" alt="Trackstar"/>
-            <div className="refLink">
-            <a href="https://github.com/yankee3313">Trackstar</a>
-            </div>
+            <img src={trackstar} className="carouselPic" alt="TOER-store" style={{ border: '2px solid black' }}/>
+            <ul>
+              <li>Single-page React app utilizing AWS RDS cloud PaaS for hosting Postgres database</li>
+              <li>Okta/Auth0 for user management/SSO</li>
+              <li>Responsive web design with dark mode feature</li>
+              <li>React Context for complex state management</li>
+              <li>Node/Express/Axios backend</li>
+              <li>Deployed via Google Cloud Platform</li>
+            </ul>
           </div>
         </Carousel>
         </div>
