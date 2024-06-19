@@ -9,18 +9,16 @@ const Navbar = () => {
     }
 
     return (
-      <div id={`navBarContainer ${isCollapsed ? 'collapsed' : ''}`}>
+      <div className={`navBarContainer ${isCollapsed ? 'collapsed' : ''}`}>
         <div id="HeaderContainer">
           <h1 id="headerName">
             <a className="headerLink" href="/">Ross M. Comer</a>
           </h1>
-          <div className="SelectionBar">
             <div>
               <button className="navbar-toggle" onClick={toggleNavbar}>
                   &#9776;
               </button>
             </div>
-          </div>
         </div>
         <div className="SelectionBar">
           <div className={`navbar-links ${isCollapsed ? 'collapsed' : ''}`}>
