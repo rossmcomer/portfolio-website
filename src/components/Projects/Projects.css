@@ -49,12 +49,12 @@
 }
 
 .Project img {
-    border: 2px solid black
+    border: 2px solid black;
 }
 
 .carouselContainer .control-dots {
-    bottom: 30% !important; /* Adjust this value to move the dots higher or lower */
-    transform: translateY(-50%) !important;
+    bottom: 31% !important;
+    transform: translateY(-60%) !important;
   }
 
 .control-arrow {

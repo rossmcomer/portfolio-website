@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { NavLink } from 'react-router-dom'
 
 const Navbar = () => {
-    const [isCollapsed, setIsCollapsed] = useState(true)
+    const [isCollapsed, setIsCollapsed] = useState(false)
 
     const toggleNavbar = () => {
         setIsCollapsed(!isCollapsed)

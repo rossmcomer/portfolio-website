@@ -103,6 +103,9 @@ h2 {
   padding: 10px;
   text-decoration: none;
   color: black;
+  display:flex;
+  flex-wrap: none;
+  min-width: 150px;
 }
 
 .navbar-links a.active {
