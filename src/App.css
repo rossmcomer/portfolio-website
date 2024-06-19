@@ -45,7 +45,6 @@ h2 {
   font-family: 'Source Sans Pro', sans-serif;
   justify-content: space-between;
   align-items: center;
-  margin: 0 .5rem;
   width: 100%
 }
 
@@ -68,7 +67,6 @@ h2 {
   align-items: flex-end;
   text-transform: uppercase;
   font-size: 1.2rem;
-  margin: 0px 20px;
   margin-top: .4rem;
 }
 
@@ -161,7 +159,7 @@ hr {
 .work {
   margin: 20px;
   background-color: rgb(226, 226, 226);
-  max-width: 720px;
+  max-width: 700px;
   padding: 2rem;
 }
 
@@ -185,18 +183,18 @@ hr {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 720px;
+  max-width: 700px;
 }
 
 @media (min-width: 1025px) {
   .work {
-    width: 700px
+    width: 650px
   }
 }
 
 @media (max-width: 1024px) {
   .work {
-    width: 600px
+    width: 550px
   }
 }
 
@@ -206,7 +204,7 @@ hr {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 550px) {
   .work {
       width: 300px
   }
