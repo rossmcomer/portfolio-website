@@ -119,9 +119,9 @@ const Education = () => {
           </div>
         </div>
       </div>
-      <div>
+      <div className='certificationsTable'>
       <TableContainer component={Paper}>
-        <Table sx={{ width: 600}}>
+        <Table>
           <TableHead>
             <TableRow >
               <StyledTableCell align="center" colSpan={5} id="certTitle">Certificates & Achievements</StyledTableCell>

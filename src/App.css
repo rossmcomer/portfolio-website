@@ -68,8 +68,8 @@ h2 {
   align-items: flex-end;
   text-transform: uppercase;
   font-size: 1.2rem;
-  margin: 0px;
-  margin-top: .3rem;
+  margin: 0px 20px;
+  margin-top: .4rem;
 }
 
 .SelectionBar a {
@@ -78,7 +78,7 @@ h2 {
   width: 8rem;
   height: 2rem;
   color:rgb(58, 76, 179);
-  margin: 0px 80px
+  margin: 0 30px
 }
 
 .SelectionBar a:hover {
@@ -153,7 +153,7 @@ h2 {
 
 hr {
   border-top: 1px solid rgb(243, 243, 243);
-  margin: 20px 0;
+  margin: 10px 0;
   box-sizing: content-box;
   overflow: visible;
 }
@@ -161,7 +161,7 @@ hr {
 .work {
   margin: 20px;
   background-color: rgb(226, 226, 226);
-  width: 600px;
+  max-width: 720px;
   padding: 2rem;
 }
 
@@ -185,7 +185,31 @@ hr {
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-width: 720px;
+  max-width: 720px;
+}
+
+@media (min-width: 1025px) {
+  .work {
+    width: 700px
+  }
+}
+
+@media (max-width: 1024px) {
+  .work {
+    width: 600px
+  }
+}
+
+@media (max-width: 750px) {
+  .work {
+      width: 450px
+  }
+}
+
+@media (max-width: 480px) {
+  .work {
+      width: 300px
+  }
 }
 
 .employmentDates {
@@ -213,19 +237,48 @@ h3 {
   margin: 0;
 }
 
+#ItemsList {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 #educationContainer {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  align-items: flex-start;
+  justify-content: space-around;
+  align-items: center;
   flex-wrap: wrap;
   animation: slideInFromLeft .13s ease;
+}
+
+@media (max-width: 1024px) {
+  #educationContainer {
+      width: 600px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  #educationContainer {
+      width: 450px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  #educationContainer {
+      width: 350px !important;
+  }
 }
 
 #universities {
   justify-content:center;
   display:flex;
   flex-direction: column;
+  margin: 0 20px;
+}
+
+.certificationsTable {
+  margin: 0 20px;
 }
 
 .uniLogo {
@@ -236,7 +289,6 @@ h3 {
 
 .education {
   margin-bottom: 2rem;
-  width: 600px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 450;
 }
