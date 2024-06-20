@@ -8,7 +8,7 @@ import { Carousel } from 'react-responsive-carousel';
 const Projects = () => {  
         return (
           <div className="carouselContainer">
-          <Carousel showArrows={true} width="600px" autoPlay infiniteLoop interval={5000} showStatus={false}>
+          <Carousel showArrows={true} width="600px" autoPlay infiniteLoop interval={5000} showStatus={false} swipeable={false} showIndicators={false}>
           <div className="Project">
             <div className="projectHeader">
               <div className="projectTitle">Trackstar</div>

@@ -53,8 +53,11 @@ h2 {
 }
 
 #headerName {
-  width: 13rem;
+  width: 15rem;
   min-width: 13rem;
+  display:flex;
+  align-items: flex-start;
+  margin-left: 5px;
 }
 
 #headerName a {
@@ -245,7 +248,7 @@ h3 {
 #educationContainer {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
   animation: slideInFromLeft .13s ease;
@@ -273,7 +276,6 @@ h3 {
   justify-content:center;
   display:flex;
   flex-direction: column;
-  margin: 0 20px;
 }
 
 .certificationsTable {
