@@ -114,8 +114,8 @@ const Education = () => {
         </div>
         <div className="educationItem">
           <div className="education">
-            <div style={{marginBottom: '10px'}}>Master's Degree in Biomedical Engineering // May 2013</div>
-            <div>Bachelor's Degree in Biomedical Engineering // May 2012</div>
+            <div style={{marginBottom: '10px'}}>Master's Degree in Biomedical Engineering</div>
+            <div>Bachelor's Degree in Biomedical Engineering</div>
           </div>
         </div>
       </div>
