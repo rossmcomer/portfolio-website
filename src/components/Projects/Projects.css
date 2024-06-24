@@ -4,6 +4,8 @@
     position: relative;
     max-width: 100%;
     animation: slideInFromLeft .13s ease;
+    background-color: rgb(226, 226, 226) !important;
+    padding: 0px 10px !important
 }
 
 .carousel button {
@@ -42,6 +44,7 @@
 
 .Project ul {
     list-style-type:disc;
+    padding-inline-start: 25px;
 }
 
 .Project li {
@@ -64,7 +67,13 @@
 
 .thumbs-wrapper {
     bottom: 30% !important;
+    margin: 5px !important
 }
+
+.carousel .thumb {
+    border: none !important
+}
+
 
 @media (max-width: 1024px) {
     .carouselContainer .carousel {
