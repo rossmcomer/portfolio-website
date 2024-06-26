@@ -35,7 +35,7 @@ const Projects = () => {
               <div className="projectTitle">Trackstar</div>
               <div>Cryptocurrency tracker with customized watchlists</div>
               <div className="refLink">
-              <a href="http://3.149.247.65:8080">View in Browser</a>
+              <a href="http://3.149.247.65">View in Browser</a>
               <div className="refLinkSpacer"> / </div>
               <a href="https://github.com/yankee3313/trackstar">View on Github</a>
               </div>
