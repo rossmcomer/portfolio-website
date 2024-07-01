@@ -14,7 +14,7 @@ const Projects = () => {
               <div className="projectTitle">TOER Store</div>
               <div>E-commerce app integrated with Stripe for payments</div>
               <div className="refLink">
-              <a href="https://34.29.160.101/">View in Browser</a>
+              <a href="https://toerstore.com">View in Browser</a>
               <div className="refLinkSpacer"> / </div>
               <a href="http://github.com/yankee3313/toer-store">View on Github</a>
               </div>
@@ -27,7 +27,7 @@ const Projects = () => {
               <li>Responsive web design with dark mode feature</li>
               <li>React Context for complex state management</li>
               <li>Node/Express/Axios backend</li>
-              <li>Deployed via Docker Compose on Google Cloud VM using Nginx as reverse-proxy</li>
+              <li>Deployed on Google Cloud VM using Nginx as reverse-proxy</li>
             </ul>
           </div>
           <div className="Project">
@@ -35,7 +35,7 @@ const Projects = () => {
               <div className="projectTitle">Trackstar</div>
               <div>Cryptocurrency tracker with customized watchlists</div>
               <div className="refLink">
-              <a href="http://3.149.247.65">View in Browser</a>
+              <a href="http://trackstarapp.com">View in Browser</a>
               <div className="refLinkSpacer"> / </div>
               <a href="https://github.com/yankee3313/trackstar">View on Github</a>
               </div>
