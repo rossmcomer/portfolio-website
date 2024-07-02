@@ -1,0 +1,10 @@
+.bioContainer {
+    display: flex;
+    animation: slideInFromLeft .13s ease;
+    text-align: center;
+    width: 80%;
+    margin: 20px;
+    background-color: rgb(226, 226, 226);
+    max-width: 700px;
+    padding: 1rem;
+}

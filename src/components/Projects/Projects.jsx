@@ -1,8 +1,8 @@
 import React from 'react'
 import './Projects.css'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import trackstar from '../../assets/trackstar.png'
-import toerstore from '../../assets/toerstore.png'
+import trackstar from '../../images/trackstar.png'
+import toerstore from '../../images/toerstore.png'
 import { Carousel } from 'react-responsive-carousel';
 
 const Projects = () => {  
@@ -16,14 +16,14 @@ const Projects = () => {
               <div className="refLink">
               <a href="https://toerstore.com">View in Browser</a>
               <div className="refLinkSpacer"> / </div>
-              <a href="http://github.com/yankee3313/toer-store">View on Github</a>
+              <a href="http://github.com/r-comer/toer-store">View on Github</a>
               </div>
             </div>
             <img src={toerstore} className="carouselPic" alt="TOER-store" style={{ border: '2px solid black' }}/>
             <ul>
               <li>Single-page React app utilizing Google Cloud PaaS for hosting Postgres database</li>
               <li>Containerized via Docker utilizing Nginx for multi-stage build</li>
-              <li>Okta/Auth0 PaaS for user management/SSO</li>
+              <li>Okta/Auth0 SaaS for user management/SSO</li>
               <li>Responsive web design with dark mode feature</li>
               <li>React Context for complex state management</li>
               <li>Node/Express/Axios backend</li>
@@ -37,7 +37,7 @@ const Projects = () => {
               <div className="refLink">
               <a href="http://trackstarapp.com">View in Browser</a>
               <div className="refLinkSpacer"> / </div>
-              <a href="https://github.com/yankee3313/trackstar">View on Github</a>
+              <a href="https://github.com/r-comer/trackstar">View on Github</a>
               </div>
             </div>
             <img src={trackstar} className="carouselPic" alt="Trackstar" style={{ border: '2px solid black' }}/>

@@ -22,7 +22,7 @@ const Navbar = () => {
         </div>
         <div className="SelectionBar">
           <div className={`navbar-links ${isCollapsed ? 'collapsed' : ''}`}>
-            <NavLink to="/" className={(navData) => (navData.isActive ? "active" : 'none')}>Projects</NavLink>
+            <NavLink to="/projects" className={(navData) => (navData.isActive ? "active" : 'none')}>Projects</NavLink>
             <NavLink to="/education" className={(navData) => (navData.isActive ? "active" : 'none')}>Education</NavLink>
             <NavLink to="/workhistory" className={(navData) => (navData.isActive ? "active" : 'none')}>Work History</NavLink>
           </div>
