@@ -10,10 +10,13 @@
 
 .carousel button {
     height: 80px;
+    background-color: rgb(0,0,0) !important;
 }
 
 .carouselPic {
     border: 2px solid black;
+    height: 80% !important;
+    width: 80% !important;
   }
 
 .projectHeader {
@@ -51,9 +54,6 @@
     margin-bottom: 4px;
 }
 
-.Project img {
-    border: 2px solid black;
-}
 
 .carouselContainer .control-dots {
     bottom: 31% !important;
@@ -63,6 +63,14 @@
 .control-arrow {
     top: 44% !important;
     transform: translateY(-50%) !important;
+}
+
+.control-arrow:focus {
+    opacity: .4 !important;
+}
+
+.control-arrow:hover {
+    opacity: 1 !important;
 }
 
 .thumbs-wrapper {
