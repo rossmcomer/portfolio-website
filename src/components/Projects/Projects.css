@@ -48,6 +48,7 @@
 .Project ul {
     list-style-type:disc;
     padding-inline-start: 25px;
+    margin-top: 10px;
 }
 
 .Project li {
