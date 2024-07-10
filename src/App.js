@@ -14,7 +14,7 @@ function App() {
       <div id="App">
         <div id="content">
           <Navbar/>
-          <hr id="Splitter"></hr>
+          {/* <hr id="Splitter"></hr> */}
           <div id="ItemsList">
             <Routes>
               <Route path="/" element={<Bio/>}/>
@@ -24,8 +24,6 @@ function App() {
             </Routes>
           </div>
         </div>
-        <hr></hr>
-      {/* <Footer /> */}
       </div>
     </Router>
   )
