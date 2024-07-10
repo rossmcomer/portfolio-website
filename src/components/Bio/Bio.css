@@ -23,25 +23,23 @@
     align-items: center;
 }
 
-.bioLower div {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 80%;
-    justify-content: center;
-    flex-wrap: wrap
-}
-
 #bioPic {
     border-radius: 50%;
     width:200px
 }
 
-.bioLower p {
+.bioLower .summary{
     margin: 0 5rem 0 5rem;
     min-width: 350px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
+}
+
+.picAndDescription {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
 }
 
 .bioLower svg {
