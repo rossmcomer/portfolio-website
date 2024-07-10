@@ -33,13 +33,22 @@
     min-width: 350px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
+    text-align: center;
 }
 
-.picAndDescription {
+.bioPicAndDescription {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 800px) {
+    .bioPicAndDescription {
+        flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    }
 }
 
 .bioLower svg {
