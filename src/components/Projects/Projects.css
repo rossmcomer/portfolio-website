@@ -4,11 +4,13 @@
     position: relative;
     animation: slideInFromLeft .13s ease;
     background-color: rgb(226, 226, 226) !important;
-    padding: 0px 10px !important;
-    max-width: 660px;
-    min-width: 345px;
-    margin: 20px;
+    max-width: 700px;
+    min-width: 350px;
     font-weight: 400;
+}
+
+.carousel-root {
+    width: 100%;
 }
 
 .carousel button {
@@ -50,15 +52,14 @@
 
 .Project ul {
     list-style-type:disc;
-    padding-inline-start: 25px;
     margin-top: 10px;
 }
 
-.productDetails {
+.projectDetails {
     display:flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .Project li {
@@ -72,8 +73,8 @@
   }
 
 .control-arrow {
-    top: 44% !important;
-    transform: translateY(-50%) !important;
+    top: 40% !important;
+    transform: translateY(-60%) !important;
 }
 
 .control-arrow:focus {
@@ -98,21 +99,26 @@
     cursor: pointer;
 }
 
-
-@media (max-width: 1024px) {
-    .carouselContainer .carousel {
-        width: 600px !important;
+@media (min-width: 1025px) {
+    .carouselContainer {
+      width: 650px !important
     }
-}
-
-@media (max-width: 768px) {
-    .carouselContainer .carousel {
-        width: 450px !important;
+  }
+  
+  @media (max-width: 1024px) {
+    .carouselContainer {
+      width: 550px !important
     }
-}
-
-@media (max-width: 480px) {
-    .carouselContainer .carousel {
-        width: 350px !important;
+  }
+  
+  @media (max-width: 750px) {
+    .carouselContainer {
+        width: 450px !important
     }
-}
+  }
+  
+  @media (max-width: 550px) {
+    .carouselContainer {
+        width: 350px !important
+    }
+  }

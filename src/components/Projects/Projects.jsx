@@ -41,7 +41,7 @@ const Projects = () => {
               </div>
             </div>
             <img src={trackstar} className="carouselPic" alt="Trackstar" style={{ border: '2px solid black' }}/>
-            <ul>
+            <ul className="projectDetails">
               <li>Single-page React app utilizing AWS RDS cloud PaaS for hosting Postgres database</li>
               <li>Pulls data from Coingecko API and facilitates CRUD for watchlist/user management</li>
               <li>Containerized via Docker utilizing Nginx for multi-stage build</li>
