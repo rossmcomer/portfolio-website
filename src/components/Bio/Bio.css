@@ -1,7 +1,7 @@
 .bioContainer {
     min-width: 350px;
     margin: 0;
-    margin-top: 50px;
+    margin-top: 5%;
     height: 100%;
     animation: slideInFromLeft .13s ease;
     display:flex;
@@ -37,7 +37,6 @@
 }
 
 .summary{
-    margin: 0 5rem 0 5rem;
     min-width: 350px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
