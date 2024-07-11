@@ -8,7 +8,7 @@ import { Carousel } from 'react-responsive-carousel';
 const Projects = () => {  
         return (
           <div className="carouselContainer">
-          <Carousel showArrows={true} width="600px" autoPlay infiniteLoop interval={5000} showStatus={false} swipeable={false} showIndicators={false}>
+          <Carousel showArrows={true} autoPlay infiniteLoop interval={5000} showStatus={false} swipeable={false} showIndicators={false}>
           <div className="Project">
             <div className="projectHeader">
               <div className="projectTitle">TOER Store</div>
@@ -20,7 +20,7 @@ const Projects = () => {
               </div>
             </div>
             <img src={toerstore} className="carouselPic" alt="TOER-store" style={{ border: '2px solid black' }}/>
-            <ul>
+            <ul className="projectDetails">
               <li>Single-page React app utilizing Google Cloud PaaS for hosting Postgres database</li>
               <li>Containerized via Docker utilizing Nginx for multi-stage build</li>
               <li>Okta/Auth0 SaaS for user management/SSO</li>

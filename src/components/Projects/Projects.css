@@ -2,10 +2,12 @@
     display: flex;
     justify-content: center;
     position: relative;
-    max-width: 100%;
     animation: slideInFromLeft .13s ease;
     background-color: rgb(226, 226, 226) !important;
-    padding: 0px 10px !important
+    padding: 0px 10px !important;
+    max-width: 660px;
+    min-width: 345px;
+    margin: 20px;
 }
 
 .carousel button {
@@ -51,6 +53,13 @@
     margin-top: 10px;
 }
 
+.productDetails {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .Project li {
     margin-bottom: 4px;
 }
@@ -84,7 +93,8 @@
 }
 
 .carousel .thumb {
-    border: none !important
+    border: none !important;
+    cursor: pointer;
 }
 
 

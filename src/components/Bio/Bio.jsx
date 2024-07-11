@@ -13,10 +13,10 @@ const Bio = () => {
                     <img id="bioPic" src={bioPic} alt="profilePicture"/>
                 <div className="summary">
                     <b>Hi,</b> my name is Ross Comer and I am a full-stack developer. 
-                    With a background in audio engineering and biomedical engineering
+                    I am passionate about creating clean, efficient products that stand out from the 
+                    competition.  With a background in audio engineering and biomedical engineering
                     I possess a unique set of problem-solving skills,
-                    creativity, and technical prowess.  I am passionate about creating products that 
-                    stand out from the competition by writing clean, efficient code.  I am seeking an entry-level 
+                    creativity, and technical prowess.  I am seeking an entry-level 
                     software engineering position where I can contribute to innovative projects.
                 </div>
             </div>
