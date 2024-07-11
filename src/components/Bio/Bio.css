@@ -1,25 +1,31 @@
 .bioContainer {
     min-width: 350px;
     margin: 0;
-    height: 300px;
+    margin-top: 50px;
+    height: 100%;
     animation: slideInFromLeft .13s ease;
-    display: flex;
+    display:flex;
     justify-content: center;
     align-items: center;
 }
 
+.blobOpacityFilter {
+    background-color: (#ffffffa9, 1);
+    border-radius: 35% 65% 70% 30% / 30% 30% 70% 70% ;
+    margin: 10px;
+}
+
 .blobContainer {
     border-radius: 35% 65% 70% 30% / 30% 30% 70% 70% ;
-    background-color: rgb(46, 77, 255);
+    background-color: rgb(46, 77, 255, .1);
     min-height: 300px;
     min-width: 300px;
     align-items: center;
-    box-shadow: 20px 20px 60px #bebebe,
-    -20px -20px 60px #ffffff;
+    box-shadow: 20px 20px 60px #bebebe9c,
+    -20px -20px 60px #ffffff8a;
     display: block;
     align-content: center;
-    border-image: linear-gradient(45deg, rgb(94, 118, 255), rgb(255, 118, 94));
-    border-image-slice: 1;
+    border-image: rgb(46, 77, 255);
 }
 
 #bioPic {
@@ -27,7 +33,7 @@
     width:200px;
     margin-bottom: 25px;
     margin-right: 15px;
-    border: 2px solid rgb(94, 118, 255);
+    border: 2px solid rgba(94, 118, 255, 1);
 }
 
 .summary{

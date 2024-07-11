@@ -6,8 +6,10 @@ const Bio = () => {
   return (
     <div className="bioContainer">
             <div className="bioPicAndDescription">
-                <div className='blobContainer'>
-                    <img id="bioPic" src={bioPic} alt="profilePicture"/>
+                <div className="blobOpacityFilter">
+                    <div className='blobContainer'>
+                        <img id="bioPic" src={bioPic} alt="profilePicture"/>
+                    </div>
                 </div>
                 <div className="summary">
                     <b>Hi,</b> my name is Ross Comer and I am a full-stack developer passionate about creating products that 
