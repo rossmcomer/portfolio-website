@@ -150,4 +150,8 @@
     top: 33% !important;
     transform: translateY(-60%) !important;
 }
+
+.control-arrow:hover {
+    opacity: .4 !important;
+}
 }
