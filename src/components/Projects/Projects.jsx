@@ -45,9 +45,9 @@ const Projects = () => {
               <li>Single-page React app utilizing AWS RDS cloud PaaS for hosting Postgres database</li>
               <li>Pulls data from Coingecko API and facilitates CRUD for watchlist/user management</li>
               <li>Containerized via Docker utilizing Nginx for multi-stage build</li>
-              <li>Responsive web design</li>
               <li>Redux Thunk for complex state management</li>
               <li>Node/Express/Axios backend</li>
+              <li>Responsive web design</li>
               <li>Deployed via AWS EC2 using Nginx as reverse-proxy</li>
             </ul>
           </div>
