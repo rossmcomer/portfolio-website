@@ -27,7 +27,7 @@ const Projects = () => {
               <li>Responsive web design with dark mode feature</li>
               <li>React Context for complex state management</li>
               <li>Node/Express/Axios backend</li>
-              <li>Deployed on Google Cloud VM using Nginx as reverse-proxy</li>
+              <li>Deployed on Google Cloud using Nginx as reverse-proxy</li>
             </ul>
           </div>
           <div className="Project">
