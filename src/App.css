@@ -64,7 +64,7 @@ h2 {
   min-width: 13rem;
   display:flex;
   align-items: flex-start;
-  margin-left: 5px;
+  margin-left: 20px;
 }
 
 #headerName a {
@@ -173,9 +173,12 @@ hr {
 }
 
 .work {
-  margin: 20px;
   background-color: rgb(226, 226, 226);
-  padding: 1rem;
+}
+
+.workItem {
+  margin: 20px;
+  padding: 16px;
 }
 
 .work div {

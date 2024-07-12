@@ -55,15 +55,9 @@
     margin-top: 10px;
 }
 
-.projectDetails {
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-}
-
 .Project li {
     margin-bottom: 4px;
+    text-align: center;
 }
 
 
@@ -105,20 +99,20 @@
     }
   }
   
-  @media (max-width: 1024px) {
-    .carouselContainer {
-      width: 550px !important
-    }
-  }
-  
-  @media (max-width: 750px) {
-    .carouselContainer {
-        width: 450px !important
-    }
-  }
-  
-  @media (max-width: 550px) {
-    .carouselContainer {
-        width: 350px !important
-    }
-  }
+@media (max-width: 1024px) {
+.carouselContainer {
+    width: 550px !important
+}
+}
+
+@media (max-width: 750px) {
+.carouselContainer {
+    width: 450px !important
+}
+}
+
+@media (max-width: 550px) {
+.carouselContainer {
+    width: 350px !important
+}
+}
