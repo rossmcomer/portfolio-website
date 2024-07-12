@@ -12,7 +12,7 @@ body {
   background: 
         linear-gradient(to bottom, rgba(255, 255, 255, 1) 25%, rgba(255, 255, 255, 0) 100%),
         url('./images/stacked-waves.svg') bottom no-repeat;
-  background-size:cover;
+  background-size: cover;
   background-position: bottom 75%;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -175,12 +175,12 @@ hr {
 }
 
 .work {
-  background-color: rgb(226, 226, 226, .3);
+  background-color: rgb(226, 226, 226, .4);
   padding:16px;
   box-shadow: 5px 5px 15px #bebebe9c,
     -5px --5px 15px #ffffff8a;
-  backdrop-filter: blur(5px) saturate(120%);
-  -webkit-backdrop-filter: blur(5px) saturate(120%);
+  backdrop-filter: blur(3px) saturate(120%);
+  -webkit-backdrop-filter: blur(3px) saturate(120%);
   /* border:.5px solid #12206e; */
 }
 

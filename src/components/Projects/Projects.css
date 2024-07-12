@@ -3,13 +3,13 @@
     justify-content: center;
     position: relative;
     animation: slideInFromLeft .13s ease;
-    background-color: rgb(226, 226, 226, .3) !important;
+    background-color: rgb(226, 226, 226, .4) !important;
     max-width: 700px;
     min-width: 350px;
     font-weight: 400;
     margin: 10px;
-    backdrop-filter: blur(5px) saturate(120%);
-    -webkit-backdrop-filter: blur(5px) saturate(120%);
+    backdrop-filter: blur(3px) saturate(120%);
+    -webkit-backdrop-filter: blur(3px) saturate(120%);
 }
 
 .carousel-root {
@@ -96,6 +96,7 @@
 
 .control-arrow:hover {
     opacity: 1 !important;
+    transition: opacity 0.3s ease-out;
 }
 
 .thumbs-wrapper {
