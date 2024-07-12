@@ -3,14 +3,20 @@
     justify-content: center;
     position: relative;
     animation: slideInFromLeft .13s ease;
-    background-color: rgb(226, 226, 226) !important;
+    background-color: rgb(226, 226, 226, .3) !important;
     max-width: 700px;
     min-width: 350px;
     font-weight: 400;
+    margin: 10px;
+    backdrop-filter: blur(5px) saturate(120%);
+    -webkit-backdrop-filter: blur(5px) saturate(120%);
 }
 
 .carousel-root {
     width: 100%;
+    padding: 16px;
+    box-shadow: 5px 5px 15px #bebebe9c,
+    -5px --5px 15px #ffffff8a;
 }
 
 .carousel button {
@@ -26,6 +32,7 @@
 
 .projectHeader {
     margin: 10px;
+    margin-top: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -50,6 +57,10 @@
     margin: 0px 10px
 }
 
+.Project img {
+    width: 50% !important
+}
+
 .Project ul {
     list-style-type:disc;
     margin-top: 10px;
@@ -57,7 +68,7 @@
 
 .Project li {
     margin-bottom: 4px;
-    text-align: center;
+    text-align:left;
 }
 
 
