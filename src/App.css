@@ -69,8 +69,9 @@ h2 {
 }
 
 #headerName a {
-  font-weight: 300;
+  font-weight: 400;
   font-family: 'Montserrat', sans-serif;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
 
 .SelectionBar {
@@ -88,7 +89,7 @@ h2 {
   width: 10rem;
   height: 2rem;
   color:rgb(58, 76, 179);
-  margin: 0 30px
+  margin: 0 30px;
 }
 
 .SelectionBar a:hover {

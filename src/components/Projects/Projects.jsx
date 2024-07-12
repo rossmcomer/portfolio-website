@@ -16,7 +16,7 @@ const Projects = () => {
               <div className="refLink">
               <a href="https://toerstore.com">View in Browser</a>
               <div className="refLinkSpacer"> / </div>
-              <a href="http://github.com/r-comer/toer-store">View on Github</a>
+              <a href="http://github.com/rossmcomer/toer-store">View on Github</a>
               </div>
             </div>
             <img src={toerstore} className="carouselPic" alt="TOER-store" style={{ border: '2px solid black' }}/>
@@ -37,7 +37,7 @@ const Projects = () => {
               <div className="refLink">
               <a href="http://trackstarapp.com">View in Browser</a>
               <div className="refLinkSpacer"> / </div>
-              <a href="https://github.com/r-comer/trackstar">View on Github</a>
+              <a href="https://github.com/rossmcomer/trackstar">View on Github</a>
               </div>
             </div>
             <img src={trackstar} className="carouselPic" alt="Trackstar" style={{ border: '2px solid black' }}/>
