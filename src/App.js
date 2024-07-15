@@ -13,14 +13,14 @@ function App() {
     <Router>
       <div id="App">
         <div id="content">
-          <Navbar/>
+          <Navbar />
           {/* <hr id="Splitter"></hr> */}
           <div id="ItemsList">
             <Routes>
-              <Route path="/" element={<Bio/>}/>
-              <Route path="/projects" element={<Projects/>}/>
-              <Route path="/education" element={<Education/>}/>
-              <Route path="/workhistory" element={<WorkHistory/>}/>
+              <Route path="/" element={<Bio />} />
+              <Route path="/projects" element={<Projects />} />
+              <Route path="/education" element={<Education />} />
+              <Route path="/workhistory" element={<WorkHistory />} />
             </Routes>
           </div>
         </div>

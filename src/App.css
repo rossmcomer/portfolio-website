@@ -1,4 +1,6 @@
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
@@ -9,9 +11,13 @@ body {
   padding-bottom: 6rem;
   margin: 0;
   height: 100%;
-  background: 
-        linear-gradient(to bottom, rgba(255, 255, 255, 1) 25%, rgba(255, 255, 255, 0) 100%),
-        url('./images/stacked-waves.svg') bottom no-repeat;
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 1) 25%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    url('./images/stacked-waves.svg') bottom no-repeat;
   background-size: cover;
   background-position: bottom 75%;
   background-attachment: fixed;
@@ -53,17 +59,17 @@ h2 {
   font-family: 'Source Sans Pro', sans-serif;
   justify-content: space-between;
   align-items: center;
-  width: 100%
+  width: 100%;
 }
 
-#HeaderContainer a{
+#HeaderContainer a {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
 #headerName {
   width: 15rem;
   min-width: 13rem;
-  display:flex;
+  display: flex;
   align-items: flex-start;
   margin-left: 20px;
 }
@@ -79,7 +85,7 @@ h2 {
   align-items: flex-end;
   text-transform: uppercase;
   font-size: 1.2rem;
-  margin-top: .4rem;
+  margin-top: 0.4rem;
 }
 
 .SelectionBar a {
@@ -87,12 +93,12 @@ h2 {
   position: relative;
   width: 10rem;
   height: 2rem;
-  color:rgb(58, 76, 179);
-  margin: 0 30px
+  color: rgb(58, 76, 179);
+  margin: 0 30px;
 }
 
 .SelectionBar a:hover {
-  color:rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
   transform: scale(1.1);
 }
 
@@ -133,11 +139,11 @@ h2 {
 
 @media (max-width: 899px) {
   .navbar-toggle {
-      display: block;
+    display: block;
   }
 
   .navbar-links {
-      display: none;
+    display: none;
   }
 
   .navbar-links.collapsed {
@@ -150,7 +156,7 @@ h2 {
     text-align: center;
   }
 
-  .navBarContainer.collapsed{
+  .navBarContainer.collapsed {
     display: flex;
     flex-direction: column;
   }
@@ -158,11 +164,11 @@ h2 {
 
 #Splitter {
   display: flex;
-  margin-top: .25rem;
+  margin-top: 0.25rem;
 }
 
 #ItemsList {
-  display:flex;
+  display: flex;
   flex-direction: row;
   justify-content: center;
 }
@@ -175,9 +181,10 @@ hr {
 }
 
 .work {
-  background-color: rgb(226, 226, 226, .4);
-  padding:16px;
-  box-shadow: 5px 5px 15px #bebebe9c,
+  background-color: rgb(226, 226, 226, 0.4);
+  padding: 16px;
+  box-shadow:
+    5px 5px 15px #bebebe9c,
     -5px --5px 15px #ffffff8a;
   backdrop-filter: blur(3px) saturate(120%);
   -webkit-backdrop-filter: blur(3px) saturate(120%);
@@ -196,15 +203,15 @@ hr {
 
 @keyframes slideInFromLeft {
   0% {
-      transform: translateX(-100%);
+    transform: translateX(-100%);
   }
   100% {
-      transform: translateX(0);
+    transform: translateX(0);
   }
 }
 
 #workContainer {
-  animation: slideInFromLeft .13s ease;
+  animation: slideInFromLeft 0.13s ease;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -214,25 +221,25 @@ hr {
 
 @media (min-width: 1025px) {
   .workItem {
-    width: 650px
+    width: 650px;
   }
 }
 
 @media (max-width: 1024px) {
   .workItem {
-    width: 550px
+    width: 550px;
   }
 }
 
 @media (max-width: 750px) {
   .workItem {
-      width: 450px
+    width: 450px;
   }
 }
 
 @media (max-width: 550px) {
   .workItem {
-      width: 350px
+    width: 350px;
   }
 }
 
@@ -254,7 +261,7 @@ hr {
 .websiteLink {
   font-weight: 400;
   font-family: 'Montserrat', sans-serif;
-  color:rgb(46, 77, 255)
+  color: rgb(46, 77, 255);
 }
 
 h3 {
@@ -267,30 +274,30 @@ h3 {
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
-  animation: slideInFromLeft .13s ease;
+  animation: slideInFromLeft 0.13s ease;
 }
 
 @media (max-width: 1024px) {
   #educationContainer {
-      width: 600px !important;
+    width: 600px !important;
   }
 }
 
 @media (max-width: 768px) {
   #educationContainer {
-      width: 450px !important;
+    width: 450px !important;
   }
 }
 
 @media (max-width: 480px) {
   #educationContainer {
-      width: 350px !important;
+    width: 350px !important;
   }
 }
 
 #universities {
-  justify-content:center;
-  display:flex;
+  justify-content: center;
+  display: flex;
   flex-direction: column;
   margin: 0 10px;
 }
@@ -325,7 +332,7 @@ h3 {
 #certTitle {
   font-family: 'Montserrat', sans-serif;
   background-color: rgb(18, 32, 110);
-  font-size:110%;
+  font-size: 110%;
 }
 
 #certRow {
