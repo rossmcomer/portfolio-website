@@ -19,7 +19,9 @@ const Projects = () => {
               <a href="http://github.com/rossmcomer/toer-store">View on Github</a>
               </div>
             </div>
+            <a href="https://toerstore.com">
             <img src={toerstore} className="carouselPic" alt="TOER-store" style={{ border: '2px solid black' }}/>
+            </a>
             <ul className="projectDetails">
               <li>Single-page React app utilizing Google Cloud PaaS for hosting Postgres database</li>
               <li>Containerized via Docker utilizing Nginx for multi-stage build</li>
@@ -40,7 +42,9 @@ const Projects = () => {
               <a href="https://github.com/rossmcomer/trackstar">View on Github</a>
               </div>
             </div>
+            <a href="https://trackstarapp.com">
             <img src={trackstar} className="carouselPic" alt="Trackstar" style={{ border: '2px solid black' }}/>
+            </a>
             <ul className="projectDetails">
               <li>Single-page React app utilizing AWS RDS cloud PaaS for hosting Postgres database</li>
               <li>Pulls data from Coingecko API and facilitates CRUD for watchlist/user management</li>
