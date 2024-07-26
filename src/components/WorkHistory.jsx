@@ -52,7 +52,7 @@ const WorkHistory = () => (
     </div>
     <div className="workItem">
       <div className="work">
-        <h2>DJ/Master of Ceremonies</h2>
+        <h2>Musical Artist</h2>
         <h3 className="employerName">Lotus Concepts</h3>
         <a href="https://lotusconceptsmgmt.com/" className="websiteLink">
           lotusconceptsmgmt.com
@@ -72,7 +72,7 @@ const WorkHistory = () => (
     </div>
     <div className="workItem">
       <div className="work">
-        <h2>DJ/Master of Ceremonies</h2>
+        <h2>Musical Artist</h2>
         <h3 className="employerName">Red Bull</h3>
         <a href="https://redbull.com" className="websiteLink">
           redbull.com
