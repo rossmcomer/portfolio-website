@@ -8,7 +8,7 @@ const WorkHistory = () => (
     <div className="workItem">
       <div className="work">
         <h2>Audio Engineer/Producer</h2>
-        <h3 className="employerName">TOER Productions</h3>
+        <h3 className="employerName">TOER</h3>
         <a href="https://toermusic.com" className="websiteLink">
           toermusic.com
         </a>
