@@ -12,13 +12,12 @@ const Bio = () => {
           </div>
         </div>
         <div className="summary">
-          <b>Hi,</b> my name is Ross Comer and I am a full-stack developer
-          passionate about creating products that stand out from the
-          competition. With a background in biomedical engineering and audio
-          engineering I possess a unique set of problem-solving skills,
-          creativity, and technical prowess. I am seeking an entry-level
-          software engineering position where I can contribute to innovative
-          projects.
+          <b>Hi,</b> my name is Ross Comer and I am a self-motivated developer
+          with two years of experience creating full-stack applications.  
+          I possess knowledge of the entire software development lifecycle, 
+          responsive web-design, and continue to learn more each day.  
+          I am seeking an entry-level software engineering position where 
+          I can apply my passion for solving complex problems as part of a team.
         </div>
       </div>
     </div>

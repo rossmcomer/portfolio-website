@@ -19,7 +19,7 @@ const WorkHistory = () => (
           <img src={lotusLogo} alt="Lotus Logo" className="logo"></img>
         </a>
         <div>-Engineer optimal signal chains for live music performances</div>
-        <div>-Adapt engineering methods to reach a dynamic audience</div>
+        <div>-Adapt engineering methods to reach dynamic audiences</div>
         <div>-Collaborate with event planners to satisfy venue requests</div>
       </div>
     </div>
