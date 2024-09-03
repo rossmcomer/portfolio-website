@@ -7,29 +7,20 @@ const WorkHistory = () => (
   <div id="workContainer">
     <div className="workItem">
       <div className="work">
-        <h2>Audio Engineer/Producer</h2>
-        <h3 className="employerName">TOER</h3>
-        <a href="https://toermusic.com" className="websiteLink">
-          toermusic.com
+        <h2>Audio Engineer</h2>
+        <h3 className="employerName">Lotus Concepts</h3>
+        <a href="https://lotusconceptsmgmt.com/" className="websiteLink">
+          lotusconceptsmgmt.com
         </a>
         <div className="employmentDates">
-          <div>Self-Employed, Remote</div>
+          <div>Denver, Colorado</div>
         </div>
-        <a href="https://toermusic.com">
-          <img src={toerLogo} alt="TOER Logo" className="logo"></img>
+        <a href="https://lotusconceptsmgmt.com/">
+          <img src={lotusLogo} alt="Lotus Logo" className="logo"></img>
         </a>
-        <div>
-          -Mix/Master/Record/Produce radio-ready records for artists all over
-          the world
-        </div>
-        <div>
-          -Helped many artists reach their full potential by polishing their raw
-          ideas to achieve their desired sound
-        </div>
-        <div>
-          -Grew an audience of over 10 thousand fans across multiple social
-          media platforms with millions of song downloads/streams
-        </div>
+        <div>-Engineer optimal signal chains for live music performances</div>
+        <div>-Adapt engineering methods to reach a dynamic audience</div>
+        <div>-Collaborate with event planners to satisfy venue requests</div>
       </div>
     </div>
     <div className="workItem">
@@ -45,29 +36,34 @@ const WorkHistory = () => (
         <a href="https://www.gravitystudios.com">
           <img src={gravityLogo} alt="Gravity Logo" className="logo"></img>
         </a>
-        <div>-Met with clients to discuss recording/mixing pipeline</div>
-        <div>-Engineered signal chains for optimal gain-staging conditions</div>
-        <div>-Mixed tracks in post-production to satisfy client requests</div>
+        <div>-Schedule meetings with other mixing engineers to meet deadlines</div>
+        <div>-Act as a liaison between clients and the engineering team</div>
+        <div>-Contribute creative input to senior engineers</div>
       </div>
     </div>
     <div className="workItem">
       <div className="work">
-        <h2>Musical Artist</h2>
-        <h3 className="employerName">Lotus Concepts</h3>
-        <a href="https://lotusconceptsmgmt.com/" className="websiteLink">
-          lotusconceptsmgmt.com
+        <h2>Audio Engineer</h2>
+        <h3 className="employerName">TOER</h3>
+        <a href="https://toermusic.com" className="websiteLink">
+          toermusic.com
         </a>
         <div className="employmentDates">
-          <div>Denver, Colorado</div>
+          <div>Remote</div>
         </div>
-        <a href="https://lotusconceptsmgmt.com/">
-          <img src={lotusLogo} alt="Lotus Logo" className="logo"></img>
+        <a href="https://toermusic.com">
+          <img src={toerLogo} alt="TOER Logo" className="logo"></img>
         </a>
         <div>
-          -DJ over 150 events annually at popular nightclubs/corporate events
+          -Engage in post-production mixing/mastering and live sound recording for clients
         </div>
-        <div>-Collaborate with event planners to organize themed events</div>
-        <div>-Tailored custom playlists to reach a dynamic audience</div>
+        <div>
+          -Over 10 thousand followers across multiple social
+          media platforms with millions of song downloads/streams
+        </div>
+        <div>
+          -Insomniac Events 2013 Discovery Project Grand Prize Winner
+        </div>
       </div>
     </div>
     <div className="workItem">
@@ -78,17 +74,16 @@ const WorkHistory = () => (
           redbull.com
         </a>
         <div className="employmentDates">
-          <div>Madison/Chicago/Denver</div>
+          <div>Madison, WI</div>
         </div>
         <a href="https://redbull.com">
           <img src={redbullLogo} alt="RedBull Logo" className="logo"></img>
         </a>
         <div>
-          -Collaborate with student brand managers to provide top-tier music
+          -Collaborate with student brand managers to provide unique
           experience for student events
         </div>
-        <div>-Curate customized playlists for each unique event</div>
-        <div>-Maintain and manage sound and lighting equipment</div>
+        <div>-Curate customized playlists to meet client requests</div>
       </div>
     </div>
   </div>
