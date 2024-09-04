@@ -43,7 +43,7 @@ const Projects = () => {
             <li>Okta/Auth0 SaaS for user management/SSO</li>
             <li>Responsive web design with dark mode feature</li>
             <li>React Context for complex state management</li>
-            <li>Node/Express/Axios backend</li>
+            <li>Node/Express backend utilizes RESTful APIs</li>
             <li>Deployed on Google Cloud using Nginx as reverse-proxy</li>
           </ul>
         </div>
@@ -68,14 +68,14 @@ const Projects = () => {
               Postgres database
             </li>
             <li>
-              Pulls data from Coingecko API and facilitates CRUD for
+              RESTful APIs facilitate CRUD for
               watchlist/user management
             </li>
             <li>
               Containerized via Docker utilizing Nginx for multi-stage build
             </li>
             <li>Redux Thunk for complex state management</li>
-            <li>Node/Express/Axios backend</li>
+            <li>Node/Express backend</li>
             <li>Responsive web design</li>
             <li>Deployed via AWS EC2 using Nginx as reverse-proxy</li>
           </ul>
