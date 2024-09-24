@@ -1,7 +1,7 @@
 import React from 'react'
 import './Projects.css'
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
-import trackstar from '../../images/trackstar.png'
+import trackstar from '../../images/trackstar2.png'
 import toerstore from '../../images/toerstore.png'
 import { Carousel } from 'react-responsive-carousel'
 
