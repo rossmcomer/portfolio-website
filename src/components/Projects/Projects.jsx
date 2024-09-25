@@ -21,7 +21,7 @@ const Projects = () => {
         <div className="Project">
           <div className="projectHeader">
             <div className="projectTitle">TOER Store</div>
-            <div className='projectSummary'>E-commerce app integrated with Stripe for payments</div>
+            <div className='projectSummary'>E-commerce app integrated with Stripe and Auth0</div>
             <div className="refLink">
               <a href="https://toerstore.com">View in Browser</a>
               <div className="refLinkSpacer"> / </div>
@@ -41,7 +41,6 @@ const Projects = () => {
             <li>
               Containerized via Docker utilizing Nginx for multi-stage build
             </li>
-            <li>Okta/Auth0 SaaS for user management/SSO</li>
             <li>Responsive web design with dark mode feature</li>
             <li>React Context for complex state management</li>
             <li>Node/Express backend utilizes RESTful APIs</li>
