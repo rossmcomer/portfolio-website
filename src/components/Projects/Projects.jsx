@@ -88,12 +88,12 @@ const Projects = () => {
             <div className="refLink">
               {/* <a href="http://trackstarapp.com">View in Browser</a>
               <div className="refLinkSpacer"> / </div> */}
-              <a href="https://github.com/rossmcomer/trackstar">
+              <a href="https://github.com/rossmcomer/FFGenie">
                 View on Github
               </a>
             </div>
           </div>
-          <a href="https://trackstarapp.com" className="projectPic">
+          <a href="https://github.com/rossmcomer/FFGenie" className="projectPic">
             <img src={ffGenie} className="carouselPic" alt="FFGenie" />
           </a>
           <ul className="projectDetails">
