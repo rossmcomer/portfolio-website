@@ -2,7 +2,8 @@ import React from 'react'
 import './Projects.css'
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
 import trackstar from '../../images/trackstar2.png'
-import toerstore from '../../images/toerstore2.png'
+import toerstore from '../../images/toerstore.png'
+import ffGenie from '../../images/FFGenie.png'
 import { Carousel } from 'react-responsive-carousel'
 
 const Projects = () => {
@@ -78,6 +79,40 @@ const Projects = () => {
             <li>Node/Express backend</li>
             <li>Responsive web design</li>
             <li>Deployed via AWS EC2 using Nginx as reverse-proxy</li>
+          </ul>
+        </div>
+        <div className="Project">
+          <div className="projectHeader">
+            <div className="projectTitle">FFGenie</div>
+            <div>Fantasy Football Lineup Helper</div>
+            <div className="refLink">
+              {/* <a href="http://trackstarapp.com">View in Browser</a>
+              <div className="refLinkSpacer"> / </div> */}
+              <a href="https://github.com/rossmcomer/trackstar">
+                View on Github
+              </a>
+            </div>
+          </div>
+          <a href="https://trackstarapp.com" className="projectPic">
+            <img src={ffGenie} className="carouselPic" alt="FFGenie" />
+          </a>
+          <ul className="projectDetails">
+            <li>
+              Pulls all fantasy football teams for any Sleeper username
+            </li>
+            <li>
+              Provides information about the stadium, weather, and 
+              betting odds for each player
+            </li>
+            <li>
+              Single page Vue app utilizing Typescript
+            </li>
+            <li>Vuex for complex state management</li>
+            <li>
+              Containerized via Docker
+            </li>
+            <li>Responsive web design</li>
+            <li>Deployed via AWS Elastic Conainer Service</li>
           </ul>
         </div>
       </Carousel>
