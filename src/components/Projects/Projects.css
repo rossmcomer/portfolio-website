@@ -98,7 +98,7 @@
 }
 
 .control-arrow {
-  top: 32% !important;
+  top: 35% !important;
 }
 
 .control-arrow.control-prev {
@@ -149,7 +149,7 @@
   }
 
   .control-arrow {
-    top: 37% !important;
+    top: 40% !important;
     transform: translateY(-60%) !important;
   }
 }
@@ -171,7 +171,7 @@
   }
 
   .control-arrow {
-    top: 33% !important;
+    top: 32% !important;
     transform: translateY(-60%) !important;
   }
 
