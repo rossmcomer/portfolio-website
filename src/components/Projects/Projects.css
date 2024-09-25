@@ -19,14 +19,6 @@
   align-items: center;
 }
 
-.projectDetails {
-  width: 85%;
-  top: 60%;
-  transform: translateY(5%);
-  position: relative;
-  margin-top: 10px;
-}
-
 .carousel-root {
   width: 100%;
   padding: 16px;
@@ -63,9 +55,10 @@
 }
 
 .projectSummary {
-  min-height: 40px;
-  padding: 10px;
+  height: 50px;
   box-sizing: border-box;
+  display:flex;
+  align-items: center;
 }
 
 .refLink {
@@ -120,6 +113,11 @@
 
 .control-arrow:hover {
   opacity: 1 !important;
+}
+
+.projectDetails {
+  width: 85%;
+  margin-top: 10px;
 }
 
 .thumbs-wrapper {

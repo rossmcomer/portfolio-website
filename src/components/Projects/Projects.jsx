@@ -3,7 +3,7 @@ import './Projects.css'
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
 import trackstar from '../../images/trackstar2.png'
 import toerstore from '../../images/toerstore.png'
-import ffGenie from '../../images/FFGenie.png'
+import ffGenie from '../../images/FFGenie2.png'
 import { Carousel } from 'react-responsive-carousel'
 
 const Projects = () => {
