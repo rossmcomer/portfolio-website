@@ -21,7 +21,7 @@ const Projects = () => {
         <div className="Project">
           <div className="projectHeader">
             <div className="projectTitle">TOER Store</div>
-            <div>E-commerce app integrated with Stripe for payments</div>
+            <div className='projectSummary'>E-commerce app integrated with Stripe for payments</div>
             <div className="refLink">
               <a href="https://toerstore.com">View in Browser</a>
               <div className="refLinkSpacer"> / </div>
@@ -51,7 +51,7 @@ const Projects = () => {
         <div className="Project">
           <div className="projectHeader">
             <div className="projectTitle">Trackstar</div>
-            <div>Cryptocurrency tracker with customized watchlists</div>
+            <div className='projectSummary'>Cryptocurrency tracker with customized watchlists</div>
             <div className="refLink">
               <a href="http://trackstarapp.com">View in Browser</a>
               <div className="refLinkSpacer"> / </div>
@@ -84,7 +84,7 @@ const Projects = () => {
         <div className="Project">
           <div className="projectHeader">
             <div className="projectTitle">FFGenie</div>
-            <div>Fantasy Football Lineup Helper</div>
+            <div className='projectSummary'>Fantasy Football Lineup Helper</div>
             <div className="refLink">
               {/* <a href="http://trackstarapp.com">View in Browser</a>
               <div className="refLinkSpacer"> / </div> */}

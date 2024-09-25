@@ -20,7 +20,11 @@
 }
 
 .projectDetails {
-  width: 85%
+  width: 85%;
+  top: 60%;
+  transform: translateY(5%);
+  position: relative;
+  margin-top: 10px;
 }
 
 .carousel-root {
@@ -56,6 +60,12 @@
   text-decoration: none;
   margin: 0px;
   color: black;
+}
+
+.projectSummary {
+  min-height: 40px;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
 .refLink {
