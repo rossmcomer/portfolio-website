@@ -78,6 +78,8 @@
 
 .projectPic {
   width: 50% !important;
+  display:flex;
+  align-items: center;
 }
 
 .Project ul {
