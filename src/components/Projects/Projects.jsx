@@ -85,8 +85,8 @@ const Projects = () => {
             <div className="projectTitle">FFGenie</div>
             <div className='projectSummary'>Fantasy Football Lineup Helper</div>
             <div className="refLink">
-              {/* <a href="http://trackstarapp.com">View in Browser</a>
-              <div className="refLinkSpacer"> / </div> */}
+              <a href="https://ffgenie.fly.dev/">View in Browser</a>
+              <div className="refLinkSpacer"> / </div>
               <a href="https://github.com/rossmcomer/FFGenie">
                 View on Github
               </a>
