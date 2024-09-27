@@ -111,7 +111,7 @@ const Projects = () => {
               Containerized via Docker
             </li>
             <li>Responsive web design</li>
-            <li>Deployed via AWS Elastic Conainer Service</li>
+            {/* <li>Deployed via AWS Elastic Conainer Service</li> */}
           </ul>
         </div>
       </Carousel>
