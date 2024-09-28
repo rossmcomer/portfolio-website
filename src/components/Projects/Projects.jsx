@@ -92,7 +92,7 @@ const Projects = () => {
               </a>
             </div>
           </div>
-          <a href="https://github.com/rossmcomer/FFGenie" className="projectPic">
+          <a href="https://ffgenie.fly.dev/" className="projectPic">
             <img src={ffGenie} className="carouselPic" alt="FFGenie" />
           </a>
           <ul className="projectDetails">
