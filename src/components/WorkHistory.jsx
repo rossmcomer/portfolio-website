@@ -58,10 +58,6 @@ const WorkHistory = () => (
           -Engage in post-production mixing/mastering and live sound recording for clients
         </div>
         <div>
-          -Over 10 thousand followers across multiple social
-          media platforms with millions of song downloads/streams
-        </div>
-        <div>
           -Insomniac Events 2013 Discovery Project Grand Prize Winner
         </div>
       </div>
