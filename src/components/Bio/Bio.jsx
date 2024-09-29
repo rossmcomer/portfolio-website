@@ -14,8 +14,8 @@ const Bio = () => {
         <div className="summary">
           <b>Hi,</b> my name is Ross Comer and I am a self-motivated developer
           with two years of experience creating full-stack applications.  
-          I possess knowledge of the entire software development lifecycle, continuous integration,
-          responsive web-design, and continue to learn more each day.  
+          I am familiar with the entire software development lifecycle, continuous integration, and
+          responsive web-design, which is demonstrated in my applications in this portfolio.  
           I am seeking an entry-level software engineering position where 
           I can apply my passion for solving complex problems as part of a team.
         </div>
