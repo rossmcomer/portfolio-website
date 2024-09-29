@@ -97,11 +97,12 @@ const Projects = () => {
           </a>
           <ul className="projectDetails">
             <li>
-              Pulls all fantasy football teams for any Sleeper username
+              Pulls all fantasy football teams for any Sleeper username and 
+              provides information about the stadium, weather, and 
+              betting odds for each player
             </li>
             <li>
-              Provides information about the stadium, weather, and 
-              betting odds for each player
+              Deployed with CI/CD pipeline via GitHub Actions
             </li>
             <li>
               Single page Vue app utilizing Typescript
