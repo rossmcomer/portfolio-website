@@ -1,8 +1,23 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import './Bio.css'
 import bioPic from '../../images/bioPicture.jpeg'
 
 const Bio = () => {
+  const text = "I'm Ross Comer and I am a full-stack developer currently based in Appleton, WI. I used to work with audio but now I work with code. My applications in this portfolio demonstrate my knowledge of the software development lifecycle, continuous integration, and responsive web design."
+  const [displayedText, setDisplayedText] = useState("")
+  const [index, setIndex] = useState(0)
+
+  useEffect(() => {
+    if (index < text.length) {
+      const timeout = setTimeout(() => {
+        setDisplayedText(prev => prev + text[index])
+        setIndex(index + 1)
+      }, 7)
+
+      return () => clearTimeout(timeout)
+    }
+  }, [index, text])
+
   return (
     <div className="bioContainer">
       <div className="bioPicAndDescription">
@@ -11,14 +26,7 @@ const Bio = () => {
             <img id="bioPic" src={bioPic} alt="profilePicture" />
           </div>
         </div>
-        <div className="summary">
-          <b>Hi,</b> my name is Ross Comer and I am a self-motivated developer
-          with two years of experience creating full-stack applications.  
-          I am familiar with the entire software development lifecycle, continuous integration, and
-          responsive web-design, which is demonstrated in my applications in this portfolio.  
-          I am seeking an entry-level software engineering position where 
-          I can apply my passion for solving complex problems as part of a team.
-        </div>
+        <div id="summary"><b>{displayedText.slice(0, 3)}</b>{displayedText.slice(3)}</div>
       </div>
     </div>
   )
