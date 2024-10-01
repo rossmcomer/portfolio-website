@@ -3,7 +3,7 @@ import './Bio.css'
 import bioPic from '../../images/bioPicture.jpeg'
 
 const Bio = () => {
-  const text = "I'm Ross Comer and I am a full-stack developer currently based in Appleton, WI. I used to work with audio but now I work with code. My applications in this portfolio demonstrate my knowledge of the software development lifecycle, continuous integration, and responsive web design."
+  const text = "HI, I'm Ross Comer and I am a full-stack developer currently based in Appleton, WI. I used to work with audio but now I work with code. My applications in this portfolio demonstrate my knowledge of the software development lifecycle, continuous integration, and responsive web design."
   const [displayedText, setDisplayedText] = useState("")
   const [index, setIndex] = useState(0)
 
