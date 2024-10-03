@@ -36,7 +36,9 @@ const WorkHistory = () => (
         <a href="https://www.gravitystudios.com">
           <img src={gravityLogo} alt="Gravity Logo" className="logo"></img>
         </a>
-        <div>-Schedule meetings with other mixing engineers to meet deadlines</div>
+        <div>
+          -Schedule meetings with other mixing engineers to meet deadlines
+        </div>
         <div>-Act as a liaison between clients and the engineering team</div>
         <div>-Contribute creative input to senior engineers</div>
       </div>
@@ -55,11 +57,10 @@ const WorkHistory = () => (
           <img src={toerLogo} alt="TOER Logo" className="logo"></img>
         </a>
         <div>
-          -Engage in post-production mixing/mastering and live sound recording for clients
+          -Engage in post-production mixing/mastering and live sound recording
+          for clients
         </div>
-        <div>
-          -Insomniac Events 2013 Discovery Project Grand Prize Winner
-        </div>
+        <div>-Insomniac Events 2013 Discovery Project Grand Prize Winner</div>
       </div>
     </div>
     <div className="workItem">
@@ -76,8 +77,8 @@ const WorkHistory = () => (
           <img src={redbullLogo} alt="RedBull Logo" className="logo"></img>
         </a>
         <div>
-          -Collaborate with student brand managers to provide unique
-          experience for student events
+          -Collaborate with student brand managers to provide unique experience
+          for student events
         </div>
         <div>-Curate customized playlists to meet client requests</div>
       </div>

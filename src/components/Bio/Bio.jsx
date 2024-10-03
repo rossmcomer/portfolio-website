@@ -3,14 +3,15 @@ import './Bio.css'
 import bioPic from '../../images/bioPicture.jpeg'
 
 const Bio = () => {
-  const text = "Hi, my name is Ross Comer and I am a full-stack developer currently based in Appleton, WI. I used to work with audio but now I work with code. My projects in this portfolio demonstrate my knowledge of application development from concept to production."
-  const [displayedText, setDisplayedText] = useState("")
+  const text =
+    'Hi, my name is Ross Comer and I am a full-stack developer currently based in Appleton, WI. I used to work with audio but now I work with code. My projects in this portfolio demonstrate my knowledge of application development from concept to production.'
+  const [displayedText, setDisplayedText] = useState('')
   const [index, setIndex] = useState(0)
 
   useEffect(() => {
     if (index < text.length) {
       const timeout = setTimeout(() => {
-        setDisplayedText(prev => prev + text[index])
+        setDisplayedText((prev) => prev + text[index])
         setIndex(index + 1)
       }, 7)
 
@@ -26,7 +27,10 @@ const Bio = () => {
             <img id="bioPic" src={bioPic} alt="profilePicture" />
           </div>
         </div>
-        <div id="summary"><b>{displayedText.slice(0, 3)}</b>{displayedText.slice(3)}</div>
+        <div id="summary">
+          <b>{displayedText.slice(0, 3)}</b>
+          {displayedText.slice(3)}
+        </div>
       </div>
     </div>
   )

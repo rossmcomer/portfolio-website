@@ -21,7 +21,9 @@ const Projects = () => {
         <div className="Project">
           <div className="projectHeader">
             <div className="projectTitle">TOER Store</div>
-            <div className='projectSummary'>E-commerce app integrated with Stripe and Auth0</div>
+            <div className="projectSummary">
+              E-commerce app integrated with Stripe and Auth0
+            </div>
             <div className="refLink">
               <a href="https://toerstore.com">View in Browser</a>
               <div className="refLinkSpacer"> / </div>
@@ -50,7 +52,9 @@ const Projects = () => {
         <div className="Project">
           <div className="projectHeader">
             <div className="projectTitle">Trackstar</div>
-            <div className='projectSummary'>Cryptocurrency tracker with customized watchlists</div>
+            <div className="projectSummary">
+              Cryptocurrency tracker with customized watchlists
+            </div>
             <div className="refLink">
               <a href="http://trackstarapp.com">View in Browser</a>
               <div className="refLinkSpacer"> / </div>
@@ -67,10 +71,7 @@ const Projects = () => {
               Single-page React app utilizing AWS RDS cloud PaaS for hosting
               Postgres database
             </li>
-            <li>
-              RESTful APIs facilitate CRUD for
-              watchlist/user management
-            </li>
+            <li>RESTful APIs facilitate CRUD for watchlist/user management</li>
             <li>
               Containerized via Docker utilizing Nginx for multi-stage build
             </li>
@@ -83,13 +84,11 @@ const Projects = () => {
         <div className="Project">
           <div className="projectHeader">
             <div className="projectTitle">FFGenie</div>
-            <div className='projectSummary'>Fantasy Football Lineup Helper</div>
+            <div className="projectSummary">Fantasy Football Lineup Helper</div>
             <div className="refLink">
               <a href="https://ffgenie.fly.dev/">View in Browser</a>
               <div className="refLinkSpacer"> / </div>
-              <a href="https://github.com/rossmcomer/FFGenie">
-                View on Github
-              </a>
+              <a href="https://github.com/rossmcomer/FFGenie">View on Github</a>
             </div>
           </div>
           <a href="https://ffgenie.fly.dev/" className="projectPic">
@@ -97,20 +96,14 @@ const Projects = () => {
           </a>
           <ul className="projectDetails">
             <li>
-              Pulls all fantasy football teams for any Sleeper username and 
-              provides information about the stadium, weather, and 
-              betting odds for each player
+              Pulls all fantasy football teams for any Sleeper username and
+              provides information about the stadium, weather, and betting odds
+              for each player
             </li>
-            <li>
-              Deployed with CI/CD pipeline via GitHub Actions
-            </li>
-            <li>
-              Single page Vue app utilizing Typescript
-            </li>
+            <li>Deployed with CI/CD pipeline via GitHub Actions</li>
+            <li>Single page Vue app utilizing Typescript</li>
             <li>Vuex for complex state management</li>
-            <li>
-              Containerized via Docker
-            </li>
+            <li>Containerized via Docker</li>
             <li>Responsive web design</li>
             {/* <li>Deployed via AWS Elastic Conainer Service</li> */}
           </ul>
