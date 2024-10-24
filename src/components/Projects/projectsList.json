@@ -39,7 +39,7 @@
       "Description": [
         "Pulls all fantasy football teams for any Sleeper username and provides information about the stadium, weather, and betting odds for each player",
         "Deployed with CI/CD pipeline via GitHub Actions",
-        "Unit, Integration, Async, Mocking/Spying testing",
+        "Unit, Integration, Async, Mock/Spy testing",
         "Single page Vue app utilizing Typescript",
         "Vuex for complex state management",
         "Containerized via Docker",
