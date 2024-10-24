@@ -7,6 +7,7 @@ import Bio from './components/Bio/Bio'
 import Projects from './components/Projects/Projects'
 import Education from './components/Education'
 import WorkHistory from './components/WorkHistory'
+import projects from './components/Projects/projectsList.json'
 
 function App() {
   return (
@@ -14,11 +15,10 @@ function App() {
       <div id="App">
         <div id="content">
           <Navbar />
-          {/* <hr id="Splitter"></hr> */}
           <div id="ItemsList">
             <Routes>
               <Route path="/" element={<Bio />} />
-              <Route path="/projects" element={<Projects />} />
+              <Route path="/projects" element={<Projects projects={projects} />} />
               <Route path="/education" element={<Education />} />
               <Route path="/workhistory" element={<WorkHistory />} />
             </Routes>

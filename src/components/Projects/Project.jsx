@@ -1,6 +1,7 @@
 import React from 'react'
 
-export const Project = (project) => {
+const Project = ({project}) => {
+    console.log(project.Image)
   return (
     <div className="Project">
         <div className="projectHeader">
@@ -9,20 +10,22 @@ export const Project = (project) => {
             {project.Summary}
         </div>
         <div className="refLink">
-            <a href={project.url}>View in Browser</a>
+            <a href={project.Url}>View in Browser</a>
             <div className="refLinkSpacer"> / </div>
-            <a href={project.gitHubUrl}>
+            <a href={project.GitHubUrl}>
             View on Github
             </a>
         </div>
         </div>
-        <a href={project.url} className="projectPic">
-        <img src={project.image} className="carouselPic" alt="TOER-store" />
+        <a href={project.Url} className="projectPic">
+        <img src={`../../images/${project.Image}`} className="carouselPic" alt={project.Title} />
         </a>
         <ul className="projectDetails">
-            {project.description.map((item, index) => 
+            {project.Description.map((item, index) => 
             <li key={index}>{item}</li>)}
         </ul>
     </div>
   )
 }
+
+export default Project
