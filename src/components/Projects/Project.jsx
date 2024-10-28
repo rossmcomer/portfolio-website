@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Project = ({project}) => {
-    console.log(project.Image)
+    const imagePath = process.env.PUBLIC_URL + '/projectImages/' + project.Image;
   return (
     <div className="Project">
         <div className="projectHeader">
@@ -18,7 +18,7 @@ const Project = ({project}) => {
         </div>
         </div>
         <a href={project.Url} className="projectPic">
-        <img src={`../../images/${project.Image}`} className="carouselPic" alt={project.Title} />
+        <img src={imagePath} className="carouselPic" alt={project.Title} />
         </a>
         <ul className="projectDetails">
             {project.Description.map((item, index) => 
