@@ -48,6 +48,11 @@ const Education = () => {
       date: 'February 14, 2024',
     },
     {
+      description: 'Foundational C# with Microsoft',
+      link: 'https://www.freecodecamp.org/certification/yankee3313/foundational-c-sharp-with-microsoft',
+      date: 'January 7, 2025',
+    },
+    {
       description: 'Certificate in GraphQL from University of Helsinki',
       link: 'https://studies.cs.helsinki.fi/stats/api/certificate/fs-graphql/en/657ed451abba01d34fb854cb1c8c4d86',
       date: 'May 31, 2023',
