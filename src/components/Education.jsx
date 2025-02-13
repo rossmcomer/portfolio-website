@@ -32,6 +32,11 @@ const Education = () => {
       date: 'January 5, 2023',
     },
     {
+      description: 'Certificate in Foundational C# with Microsoft',
+      link: 'https://www.freecodecamp.org/certification/yankee3313/foundational-c-sharp-with-microsoft',
+      date: 'January 7, 2025',
+    },
+    {
       description: 'Certificate in CI/CD from University of Helsinki',
       link: 'https://studies.cs.helsinki.fi/stats/api/certificate/fs-cicd/en/24f7afa096583524d8b53699c5647a4c',
       date: 'January 3, 2024',
@@ -46,11 +51,6 @@ const Education = () => {
       description: 'Certificate in Containers from University of Helsinki',
       link: 'https://studies.cs.helsinki.fi/stats/api/certificate/fs-containers/en/e77cfbf4ae8ff356bf1f8502f9cc50cd',
       date: 'February 14, 2024',
-    },
-    {
-      description: 'Certificate in Foundational C# with Microsoft',
-      link: 'https://www.freecodecamp.org/certification/yankee3313/foundational-c-sharp-with-microsoft',
-      date: 'January 7, 2025',
     },
     {
       description: 'Certificate in GraphQL from University of Helsinki',
