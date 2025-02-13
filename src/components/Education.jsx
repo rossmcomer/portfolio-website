@@ -27,7 +27,7 @@ const Education = () => {
     },
     {
       description:
-        'Certificate in Javascript & Data Algorithms from freeCodeCamp.org',
+        'Certificate in JavaScript & Data Algorithms from freeCodeCamp.org',
       link: 'https://www.freecodecamp.org/certification/yankee3313/javascript-algorithms-and-data-structures',
       date: 'January 5, 2023',
     },
