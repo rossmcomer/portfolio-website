@@ -4,7 +4,7 @@ import bioPic from '../../images/bioPicture.jpeg'
 
 const Bio = () => {
   const text =
-    'Hi, my name is Ross Comer and I am a full-stack developer. I used to work with audio but now I work with code. My projects in this portfolio demonstrate my knowledge of application development from concept to production.'
+    'Hi, my name is Ross Comer and I am a passionate full-stack developer. I used to work with audio but now I work with code. My projects in this portfolio demonstrate my knowledge of application development from concept to production.'
   const [displayedText, setDisplayedText] = useState('')
   const [index, setIndex] = useState(0)
 
