@@ -45,6 +45,20 @@
         "Containerized via Docker",
         "Responsive web design"
       ]
+    },
+    {
+      "Title": "Electronic Press Kit",
+      "Summary": "EPK Template for Musicians",
+      "Url": "https://toermusic.com",
+      "GitHubUrl": "https://github.com/rossmcomer/EPK",
+      "Image": "EPK-test.png",
+      "Description": [
+        "Static website built with Blazor WebAssembly",
+        "Deployed and hosted with GitHub Pages",
+        "Contact form for communication with clients",
+        "Integration with SoundCloud's embedded player",
+        "Responsive web design"
+      ]
     }
   ]
   
