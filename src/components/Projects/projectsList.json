@@ -47,13 +47,13 @@
       ]
     },
     {
-      "Title": "Electronic Press Kit",
-      "Summary": "EPK Template for Musicians",
+      "Title": "EPK",
+      "Summary": "Electronic Press Kit for Musicians",
       "Url": "https://toermusic.com",
       "GitHubUrl": "https://github.com/rossmcomer/EPK",
       "Image": "EPK-test.png",
       "Description": [
-        "Static website built with Blazor WebAssembly",
+        "Static website built with Blazor WebAssembly framework",
         "Deployed and hosted with GitHub Pages",
         "Contact form for communication with clients",
         "Integration with SoundCloud's embedded player",
