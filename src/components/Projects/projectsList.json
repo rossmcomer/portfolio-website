@@ -18,7 +18,7 @@
     "Title": "SoundChoice Booking",
     "Summary": "Booking portal for entreprenureal client's DJ business",
     "Url": "Work In Progress",
-    "GitHubUrl": "https://github.com/rossmcomer/iCite",
+    "GitHubUrl": "https://github.com/rossmcomer/SoundChoice",
     "Image": "SoundChoice-test.png",
     "Description": [
       "Single-page app with Vue/TypeScript/Pinia frontend",
