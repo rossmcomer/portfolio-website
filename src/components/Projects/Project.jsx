@@ -27,7 +27,14 @@ const Project = ({ project }) => {
           )}
         </div>
       </div>
-      <a href={project.Url} className="projectPic">
+      <a
+        href={
+          project.Url === 'Work In Progress' ? project.GitHubUrl : project.Url
+        }
+        className="projectPic"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <img src={imagePath} className="carouselPic" alt={project.Title} />
       </a>
       <ul className="projectDetails">
