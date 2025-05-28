@@ -1,64 +1,79 @@
 [
-    {
-      "Title": "TOER Store",
-      "Summary": "E-commerce app integrated with Stripe and Auth0",
-      "Url": "https://toerstore.com",
-      "GitHubUrl": "http://github.com/rossmcomer/toer-store",
-      "Image": "toerstore-test.png",
-      "Description": [
-        "Single-page React app utilizing Google Cloud PaaS for hosting Postgres database",
-        "Containerized via Docker utilizing Nginx for multi-stage build",
-        "Responsive web design with dark mode feature",
-        "React Context for complex state management",
-        "Node/Express backend utilizes RESTful APIs",
-        "Deployed on Google Cloud using Nginx as reverse-proxy"
-      ]
-    },
-    {
-      "Title": "Trackstar",
-      "Summary": "Cryptocurrency tracker with customized watchlists",
-      "Url": "http://trackstarapp.com",
-      "GitHubUrl": "https://github.com/rossmcomer/trackstar",
-      "Image": "trackstar-test.png",
-      "Description": [
-        "Single-page React app utilizing AWS RDS cloud PaaS for hosting Postgres database",
-        "RESTful APIs facilitate CRUD for watchlist/user management",
-        "Containerized via Docker utilizing Nginx for multi-stage build",
-        "Redux Thunk for complex state management",
-        "Node/Express backend",
-        "Responsive web design",
-        "Deployed via AWS EC2 using Nginx as reverse-proxy"
-      ]
-    },
-    {
-      "Title": "FFGenie",
-      "Summary": "Fantasy Football Lineup Helper",
-      "Url": "https://ffgenie.fly.dev/",
-      "GitHubUrl": "https://github.com/rossmcomer/FFGenie",
-      "Image": "FFGenie-test.png",
-      "Description": [
-        "Pulls all fantasy football teams for any Sleeper username and provides information about the stadium, weather, and betting odds for each player",
-        "Deployed with CI/CD pipeline via GitHub Actions",
-        "Unit, Integration, Async, Mock/Spy testing",
-        "Single page Vue app utilizing Typescript",
-        "Vuex for complex state management",
-        "Containerized via Docker",
-        "Responsive web design"
-      ]
-    },
-    {
-      "Title": "EPK",
-      "Summary": "Electronic Press Kit for Musicians",
-      "Url": "https://toermusic.com",
-      "GitHubUrl": "https://github.com/rossmcomer/EPK",
-      "Image": "EPK-test.png",
-      "Description": [
-        "Static website built with Blazor WebAssembly framework",
-        "Deployed and hosted with GitHub Pages",
-        "Contact form for communication with clients",
-        "Integration with SoundCloud's embedded player",
-        "Responsive web design"
-      ]
-    }
-  ]
-  
+  {
+    "Title": "TOER Store",
+    "Summary": "E-commerce app integrated with Stripe and Auth0",
+    "Url": "https://toerstore.com",
+    "GitHubUrl": "http://github.com/rossmcomer/toer-store",
+    "Image": "toerstore-test.png",
+    "Description": [
+      "Single-page React app utilizing Google Cloud PaaS for hosting Postgres database",
+      "Containerized via Docker utilizing Nginx for multi-stage build",
+      "Responsive web design with dark mode feature",
+      "React Context for complex state management",
+      "Node/Express backend utilizes RESTful APIs",
+      "Deployed on Google Cloud using Nginx as reverse-proxy"
+    ]
+  },
+  {
+    "Title": "SoundChoice DJ Services",
+    "Summary": "Booking portal for entreprenureal client's DJ business",
+    "Url": "Work In Progress",
+    "GitHubUrl": "https://github.com/rossmcomer/iCite",
+    "Image": "SoundChoice-test.png",
+    "Description": [
+      "Single-page app with Vue/TypeScript frontend",
+      "Integrated with Stripe, Google Calendar, OAuth, Instagram Graph API",
+      "Node/Express backend utilizes Prisma ORM and RESTful APIs",
+      "Admin portal allows client to make changes with ease",
+      "Uses cookies for user/admin authentication",
+      "Responsive web design automatically scales based on screen size",
+      "TailwindCSS for customized, industry-standard styles"
+    ]
+  },
+  {
+    "Title": "Trackstar",
+    "Summary": "Cryptocurrency tracker with customized watchlists",
+    "Url": "http://trackstarapp.com",
+    "GitHubUrl": "https://github.com/rossmcomer/trackstar",
+    "Image": "trackstar-test.png",
+    "Description": [
+      "Single-page React app utilizing AWS RDS cloud PaaS for hosting Postgres database",
+      "RESTful APIs facilitate CRUD for watchlist/user management",
+      "Containerized via Docker utilizing Nginx for multi-stage build",
+      "Redux Thunk for complex state management",
+      "Node/Express backend",
+      "Responsive web design",
+      "Deployed via AWS EC2 using Nginx as reverse-proxy"
+    ]
+  },
+  {
+    "Title": "FFGenie",
+    "Summary": "Fantasy Football Lineup Helper",
+    "Url": "https://ffgenie.fly.dev/",
+    "GitHubUrl": "https://github.com/rossmcomer/FFGenie",
+    "Image": "FFGenie-test.png",
+    "Description": [
+      "Pulls all fantasy football teams for any Sleeper username and provides information about the stadium, weather, and betting odds for each player",
+      "Deployed with CI/CD pipeline via GitHub Actions",
+      "Unit, Integration, Async, Mock/Spy testing",
+      "Single page Vue app utilizing Typescript",
+      "Vuex for complex state management",
+      "Containerized via Docker",
+      "Responsive web design"
+    ]
+  },
+  {
+    "Title": "EPK",
+    "Summary": "Electronic Press Kit for Musicians",
+    "Url": "https://toermusic.com",
+    "GitHubUrl": "https://github.com/rossmcomer/EPK",
+    "Image": "EPK-test.png",
+    "Description": [
+      "Static website built with Blazor WebAssembly framework",
+      "Deployed and hosted with GitHub Pages",
+      "Contact form for communication with clients",
+      "Integration with SoundCloud's embedded player",
+      "Responsive web design"
+    ]
+  }
+]

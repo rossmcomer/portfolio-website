@@ -4,7 +4,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css'
 import { Carousel } from 'react-responsive-carousel'
 import Project from './Project.jsx'
 
-const Projects = ({projects}) => {
+const Projects = ({ projects }) => {
   return (
     <div className="carouselContainer">
       <Carousel
@@ -17,7 +17,7 @@ const Projects = ({projects}) => {
         showIndicators={false}
       >
         {projects.map((project, index) => (
-          <Project key={index} project={project}/>
+          <Project key={index} project={project} />
         ))}
       </Carousel>
     </div>

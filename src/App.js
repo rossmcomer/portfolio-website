@@ -18,7 +18,10 @@ function App() {
           <div id="ItemsList">
             <Routes>
               <Route path="/" element={<Bio />} />
-              <Route path="/projects" element={<Projects projects={projects} />} />
+              <Route
+                path="/projects"
+                element={<Projects projects={projects} />}
+              />
               <Route path="/education" element={<Education />} />
               <Route path="/workhistory" element={<WorkHistory />} />
             </Routes>
