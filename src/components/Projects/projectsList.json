@@ -21,7 +21,7 @@
     "GitHubUrl": "https://github.com/rossmcomer/iCite",
     "Image": "SoundChoice-test.png",
     "Description": [
-      "Single-page app with Vue/TypeScript frontend",
+      "Single-page app with Vue/TypeScript/Pinia frontend",
       "Integrated with Stripe, Google Calendar, OAuth, Instagram Graph API",
       "Node/Express backend utilizes Prisma ORM and RESTful APIs",
       "Admin portal allows client to make changes with ease",
