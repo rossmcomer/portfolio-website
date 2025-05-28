@@ -69,7 +69,7 @@
     "GitHubUrl": "https://github.com/rossmcomer/EPK",
     "Image": "EPK-test.png",
     "Description": [
-      "Static website built with Blazor WebAssembly framework",
+      "Static website built with .NET Blazor WebAssembly framework",
       "Deployed and hosted with GitHub Pages",
       "Contact form for communication with clients",
       "Integration with SoundCloud's embedded player",
