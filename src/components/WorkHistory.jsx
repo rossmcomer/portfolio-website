@@ -7,6 +7,26 @@ const WorkHistory = () => (
   <div id="workContainer">
     <div className="workItem">
       <div className="work">
+        <h2>Audio Engineer</h2>
+        <h3 className="employerName">TOER</h3>
+        <a href="https://toermusic.com" className="websiteLink">
+          toermusic.com
+        </a>
+        <div className="employmentDates">
+          <div>Remote</div>
+        </div>
+        <a href="https://toermusic.com">
+          <img src={toerLogo} alt="TOER Logo" className="logo"></img>
+        </a>
+        <div>
+          -Engage in post-production mixing/mastering and live sound recording
+          for clients
+        </div>
+        <div>-Insomniac Events 2013 Discovery Project Grand Prize Winner</div>
+      </div>
+    </div>
+    <div className="workItem">
+      <div className="work">
         <h2>Live Sound Engineer</h2>
         <h3 className="employerName">Lotus Concepts</h3>
         <a href="https://lotusconceptsmgmt.com/" className="websiteLink">
@@ -41,26 +61,6 @@ const WorkHistory = () => (
         </div>
         <div>-Act as a liaison between clients and the engineering team</div>
         <div>-Contribute creative input to senior engineers</div>
-      </div>
-    </div>
-    <div className="workItem">
-      <div className="work">
-        <h2>Audio Engineer</h2>
-        <h3 className="employerName">TOER</h3>
-        <a href="https://toermusic.com" className="websiteLink">
-          toermusic.com
-        </a>
-        <div className="employmentDates">
-          <div>Remote</div>
-        </div>
-        <a href="https://toermusic.com">
-          <img src={toerLogo} alt="TOER Logo" className="logo"></img>
-        </a>
-        <div>
-          -Engage in post-production mixing/mastering and live sound recording
-          for clients
-        </div>
-        <div>-Insomniac Events 2013 Discovery Project Grand Prize Winner</div>
       </div>
     </div>
     <div className="workItem">
