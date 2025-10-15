@@ -19,7 +19,8 @@ const WorkHistory = () => (
           <img src={toerLogo} alt="TOER Logo" className="logo"></img>
         </a>
         <div>
-          -In-demand mixing, mastering, production, and recording for musical artists worldwide
+          -In-demand mixing, mastering, production, and recording for musical
+          artists worldwide
         </div>
         <div>-Insomniac Events 2013 Discovery Project Grand Prize Winner</div>
       </div>
@@ -55,10 +56,10 @@ const WorkHistory = () => (
         <a href="https://www.gravitystudios.com">
           <img src={gravityLogo} alt="Gravity Logo" className="logo"></img>
         </a>
+        <div>-Develop structured workflows</div>
         <div>
-        -Develop structured workflows</div>
-        <div>-
-        Assist senior engineers with prep, setup, technical insight, and troubleshooting
+          - Assist senior engineers with prep, setup, technical insight, and
+          troubleshooting
         </div>
         <div>-Act as a liaison between clients and the engineering team</div>
       </div>
