@@ -19,8 +19,7 @@ const WorkHistory = () => (
           <img src={toerLogo} alt="TOER Logo" className="logo"></img>
         </a>
         <div>
-          -Engage in post-production mixing/mastering and live sound recording
-          for clients
+          -In-demand mixing, mastering, production, and recording for musical artists worldwide
         </div>
         <div>-Insomniac Events 2013 Discovery Project Grand Prize Winner</div>
       </div>
@@ -38,9 +37,9 @@ const WorkHistory = () => (
         <a href="https://lotusconceptsmgmt.com/">
           <img src={lotusLogo} alt="Lotus Logo" className="logo"></img>
         </a>
+        <div>-Maintain and monitor complex sound systems</div>
         <div>-Engineer optimal signal chains for live music performances</div>
-        <div>-Adapt engineering methods to reach dynamic audiences</div>
-        <div>-Collaborate with event planners to satisfy venue requests</div>
+        <div>-Adapt creative direction to suit evolving project needs</div>
       </div>
     </div>
     <div className="workItem">
@@ -57,10 +56,11 @@ const WorkHistory = () => (
           <img src={gravityLogo} alt="Gravity Logo" className="logo"></img>
         </a>
         <div>
-          -Schedule meetings with other mixing engineers to meet deadlines
+        -Develop structured workflows</div>
+        <div>-
+        Assist senior engineers with prep, setup, technical insight, and troubleshooting
         </div>
         <div>-Act as a liaison between clients and the engineering team</div>
-        <div>-Contribute creative input to senior engineers</div>
       </div>
     </div>
     <div className="workItem">
