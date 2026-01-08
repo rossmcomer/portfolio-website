@@ -27,24 +27,6 @@ const WorkHistory = () => (
     </div>
     <div className="workItem">
       <div className="work">
-        <h2>Live Sound Engineer / Tech Support</h2>
-        <h3 className="employerName">Lotus Concepts</h3>
-        <a href="https://lotusconceptsmgmt.com/" className="websiteLink">
-          lotusconceptsmgmt.com
-        </a>
-        <div className="employmentDates">
-          <div>Denver, Colorado</div>
-        </div>
-        <a href="https://lotusconceptsmgmt.com/">
-          <img src={lotusLogo} alt="Lotus Logo" className="logo"></img>
-        </a>
-        <div>-Maintain and monitor complex sound systems</div>
-        <div>-Engineer optimal signal chains for live music performances</div>
-        <div>-Adapt creative direction to suit evolving project needs</div>
-      </div>
-    </div>
-    <div className="workItem">
-      <div className="work">
         <h2>Audio Engineering Intern</h2>
         <h3 className="employerName">Gravity Studios</h3>
         <a href="https://www.gravitystudios.com/" className="websiteLink">
@@ -62,6 +44,24 @@ const WorkHistory = () => (
           troubleshooting
         </div>
         <div>-Act as a liaison between clients and the engineering team</div>
+      </div>
+    </div>
+    <div className="workItem">
+      <div className="work">
+        <h2>Live Sound Engineer / Tech Support</h2>
+        <h3 className="employerName">Lotus Concepts</h3>
+        <a href="https://lotusconceptsmgmt.com/" className="websiteLink">
+          lotusconceptsmgmt.com
+        </a>
+        <div className="employmentDates">
+          <div>Denver, Colorado</div>
+        </div>
+        <a href="https://lotusconceptsmgmt.com/">
+          <img src={lotusLogo} alt="Lotus Logo" className="logo"></img>
+        </a>
+        <div>-Maintain and monitor complex sound systems</div>
+        <div>-Engineer optimal signal chains for live music performances</div>
+        <div>-Adapt creative direction to suit evolving project needs</div>
       </div>
     </div>
     <div className="workItem">
